@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -27,13 +27,21 @@ header {
 
 .logo-texto {
     margin-left: 60px;
+    color: #8fbc8f;
+    font-family: "Dosis", sans-serif;
+}
+
+.carrinho-logo {
+    width: 55px;
+    height: 66px;
+    align-items: center;
+    margin-left: 1000px;
     color: #FFF;
-    font-family: "Montserrat", sans-serif;
 }
 
 #menu-h ul {
-    font-family: "Open Sans", sans-serif;
-    background-color: #333E22;
+    font-family: "Montserrat", sans-serif;
+    background-color: #323b25;
     list-style: none;
     padding: 0;
 }
@@ -51,34 +59,93 @@ header {
 }
 
 #menu-h ul li a:hover {
-    background-color: #AE582D;
+    background-color: #ff7f50;
 }
+
+#menu-h b {
+    color: #8fbc8f;
+}
+
+.banner {
+    width: 960px;
+    height: 438px;
+    background-color: #8fbc8f;
+    margin-top: 100px;
+    margin-left: 20%;
+    border-radius: 5%;
+    margin-bottom: 95px;
+}
+
 .texto-banner {
-position: absolute;
-  transform: translate(-50%, -50%); 
-  z-index: 1;
-  top: 65%;
-  left: 69%;
-  color: #AE582D;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    top: 65%;
+    left: 69%;
+    color: #ff7f50;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 64px;
 }
+
+.imagem-banner {
+    width: 500px;
+    height: 438px;
+    float: left;
+}
+
 .roda_de_produtos {
-    background-color: #333E22;
+    display: flex;
+    background-color: #323b25;
     width: 100%;
-    height: 50%;
+    height: 350px;
+    justify-content: space-evenly;
 }
+
+.roda_de_produtos img {
+    margin-top: 50px;
+    width: 213px;
+    height: 208px;
+    background-color: #8fbc8f;
+    border-radius: 25%;
+}
+
+.roda_de_produtos h3 {
+    font-family: "Dosis", sans-serif;
+    color: #8fbc8f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.roda_de_produtos h4 {
+    font-family: "Dosis", sans-serif;
+    color: #8fbc8f;
+    font-size: 20px;
+    text-align: left;
+}
+
 .sobre-nos {
     width: 100%;
     height: 929px;
-    background-color: #AE582D;
+    background-color: #8fbc8f;
+    border-radius: 5%;
+    align-items: center;
 }
-.img-sobre {
-    padding-left: 337px;
+
+.sobre-nos img {
+    padding-left: 337px
 }
-.titulo-sobre {
-    font-family: "Montserrat", sans-serif;
+
+.sobre-nos h2 {
+    color: #ff7f50;
+    font-size: 48px;
+    padding-left: 614px;
+    font-family: "Dosis", sans-serif;
 }
-.texto-sobre {
-    font-family: "Montserrat", sans-serif;
+
+.sobre-nos h3 {
+    color: #ff7f50;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Dosis", sans-serif;
 }
