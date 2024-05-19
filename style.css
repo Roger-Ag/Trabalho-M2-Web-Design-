@@ -69,7 +69,7 @@ header {
 .banner {
     width: 960px;
     height: 438px;
-    background-color: #8fbc8f;
+    background-color: #ff7f50;
     margin-top: 100px;
     margin-left: 20%;
     border-radius: 5%;
@@ -82,7 +82,7 @@ header {
     z-index: 1;
     top: 65%;
     left: 69%;
-    color: #ff7f50;
+    color: #fffdd0;
     text-align: center;
     font-family: "Dosis", sans-serif;
     font-size: 64px;
@@ -127,7 +127,7 @@ header {
 .sobre-nos {
     width: 100%;
     height: 929px;
-    background-color: #8fbc8f;
+    background-color: #ff7f50;
     border-radius: 5%;
     align-items: center;
 }
@@ -137,15 +137,62 @@ header {
 }
 
 .sobre-nos h2 {
-    color: #ff7f50;
+    color: #fffdd0;
     font-size: 48px;
     padding-left: 614px;
     font-family: "Dosis", sans-serif;
 }
 
 .sobre-nos h3 {
-    color: #ff7f50;
+    color: #fffdd0;
     text-align: center;
     font-size: 40px;
     font-family: "Dosis", sans-serif;
+}
+
+.loja {
+    width: 95%;
+    height: 20%;
+    background-color: #323b25;
+    margin-top: 50px;
+    margin-left: 36px;
+    margin-right: 20px;
+    border-radius: 4%;
+}
+
+.indicador-produto {
+    font-family: "Montserrat", sans-serif;
+    color: #8fbc8f;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.loja-container {
+    display: flex;
+    background-color: #323b25;
+    width: 100%;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.loja-container img {
+    margin-top: 50px;
+    width: 213px;
+    height: 208px;
+    background-color: #8fbc8f;
+    border-radius: 25%;
+}
+
+.loja-container h3 {
+    font-family: "Dosis", sans-serif;
+    color: #8fbc8f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.loja-container h4 {
+    font-family: "Dosis", sans-serif;
+    color: #8fbc8f;
+    font-size: 20px;
+    text-align: left;
 }
