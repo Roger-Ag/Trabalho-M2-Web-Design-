@@ -196,3 +196,27 @@ header {
     font-size: 20px;
     text-align: left;
 }
+
+.banner-sac {
+    width: 100%;
+    height: 278px;
+    background-color: #28311B;
+}
+.banner-sac h1 {
+    font-family: "Dosis", sans-serif;
+    padding-top: 30px;
+    padding-left: 40%;
+    color: #8fbc8f ;
+    font-size: 60px;
+}
+.banner-sac h2 {
+    font-family: "Dosis", sans-serif;
+    color: #8fbc8f;
+    font-size: 30px;
+    text-align: center;
+}
+.container-sac {
+    background-color: #8fbc8f;
+    width: 100%;
+    height: 810px;
+}
