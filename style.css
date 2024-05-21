@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 
 * {
     padding: 0;
@@ -71,7 +72,7 @@ header {
     height: 438px;
     background-color: #ff7f50;
     margin-top: 100px;
-    margin-left: 20%;
+    margin-left: 270px;
     border-radius: 5%;
     margin-bottom: 95px;
 }
@@ -81,7 +82,7 @@ header {
     transform: translate(-50%, -50%);
     z-index: 1;
     top: 65%;
-    left: 69%;
+    left: 68%;
     color: #fffdd0;
     text-align: center;
     font-family: "Dosis", sans-serif;
@@ -89,7 +90,7 @@ header {
 }
 
 .imagem-banner {
-    width: 500px;
+    width: 480px;
     height: 438px;
     float: left;
 }
@@ -202,21 +203,166 @@ header {
     height: 278px;
     background-color: #28311B;
 }
+
 .banner-sac h1 {
     font-family: "Dosis", sans-serif;
     padding-top: 30px;
     padding-left: 40%;
-    color: #8fbc8f ;
+    color: #8fbc8f;
     font-size: 60px;
 }
+
 .banner-sac h2 {
     font-family: "Dosis", sans-serif;
     color: #8fbc8f;
     font-size: 30px;
     text-align: center;
 }
-.container-sac {
-    background-color: #8fbc8f;
+
+.container {
+    font-family: 'Inter', sans-serif;
     width: 100%;
-    height: 810px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #323b25;
+}
+
+.container-sac {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px #8fbc8f;
+}
+
+.form-img {
+    width: 650px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323b25;
+    padding: 2rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #323b25;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    background-color: #8fbc8f;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #ff7f50;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #323b25;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #ff7f50;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form-header h1 {
+    color: #8fbc8f;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #8fbc8f;
+}
+
+.input-box input:hover {
+    background-color: #8fbc8f;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #323b25;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #8fbc8f;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #8fbc8f;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #ff7f50;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.iframe {
+    display: block;
+    margin-left: 10%;
+    width:80%;
 }
